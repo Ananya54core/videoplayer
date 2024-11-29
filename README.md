@@ -8,7 +8,7 @@ Add comments with timestamps (Director role).
 Search comments by keywords.
 Fully responsive design with a dark theme for better user experience.
 Installation and Running the App
-**Prerequisites**
+## Prerequisites
 Before running the app, ensure you have the following:
 
 Flutter installed on your machine. If not, install Flutter here.
@@ -19,7 +19,7 @@ Default Video Integration:
 A default video (FlickVideoPlayer) is preloaded to provide an immediate experience for the user without requiring a video upload.
 Dynamic Video Switching:
 
-**Users can easily switch between:**
+## Users can easily switch between:
 A YouTube video by entering a valid URL.
 A local video by uploading a file.
 Controllers (VideoPlayerController and YoutubePlayerController) are dynamically initialized and disposed of to ensure smooth transitions.
@@ -65,7 +65,7 @@ Default Video Integration:
 A default video (FlickVideoPlayer) is preloaded to provide an immediate experience for the user without requiring a video upload.
 Dynamic Video Switching:
 
-**Users can easily switch between:**
+## Users can easily switch between:
 A YouTube video by entering a valid URL.
 A local video by uploading a file.
 Controllers (VideoPlayerController and YoutubePlayerController) are dynamically initialized and disposed of to ensure smooth transitions.
@@ -105,7 +105,7 @@ Search Comments:
 
 Use the search bar to find comments by keywords.
 
-**Dependencies**
+## Dependencies
 The app relies on the following Flutter packages:
 
 flick_video_player: To play default and local videos with advanced controls.
@@ -113,7 +113,7 @@ video_player: Core video playback functionalities.
 youtube_player_flutter: To integrate and play YouTube videos.
 file_picker: To allow users to pick videos from local storage.
 
-**Future Improvements**
+## Future Improvements
 Add support for more video formats and streaming services.
 Provide different user roles (e.g., Director and Viewer) with unique permissions.
 Enhance UI animations and transitions.
